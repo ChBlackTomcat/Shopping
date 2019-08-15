@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:id="@+id/goods_poupwindows_tb"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/Base.Theme.AppCompat.Light"
+      >
+        <Button
+            android:onClick="backOnemore"
+            android:id="@+id/goods_poupwindows_back"
+            android:background="@drawable/goback"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:id="@+id/iv_goods"
+        android:layout_width="match_parent"
+        android:layout_height="270dp" />
+    <TextView
+        android:id="@+id/tv_goods_commodityName"
+        android:text="商品名称"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_goods_price"
+        android:text="价格"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_goods_intro"
+        android:text="商品介绍"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp" />
+
+    <Button
+        android:id="@+id/bt_goods_add"
+        android:text="+加入购物车"
+        android:textSize="30dp"
+        android:background="@color/coloeOrange"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

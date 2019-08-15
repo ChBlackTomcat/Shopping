@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/coloeGreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="30dp"
+        android:textColor="@color/coloeOrange"
+        android:id="@+id/tv_goods_poupwindows"
+        android:text="请输入购买数量"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:text="-"
+        android:textSize="20dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/goods_poupwindows_reduce"
+        />
+    <EditText
+        android:background="@drawable/edit_bg"
+        android:text="1"
+        android:textSize="20dp"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:id="@+id/goods_ed"
+         />
+    <Button
+        android:text="+"
+        android:textSize="20dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/goods_poupwindows_add" />
+
+
+</LinearLayout>
+    <Button
+        android:text="确认"
+        android:textSize="30dp"
+        android:background="@color/colorWrite"
+        android:id="@+id/bt_goods_poupwindows_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
